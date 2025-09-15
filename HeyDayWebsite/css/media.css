@@ -1,0 +1,47 @@
+@media (min-width:320px) and (max-width:1025){
+footer{
+height:200px;
+padding:40px 20px;
+}
+#footerMap{
+height:50px;
+}
+}
+@media (max-width: 480px) {
+footer{
+height:200px;
+padding:40px 20px;
+}
+#footerMap{
+height:50px;
+}
+}
+
+/* Планшеты (от 481px до 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+footer{
+height:200px;
+padding:40px 20px;
+}
+#footerMap{
+height:50px;
+}
+}
+
+/* Малые ноутбуки (от 769px до 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+footer{
+height:250px;
+padding:40px 20px;
+}
+#footerMap{
+height:50px;
+}
+}
+
+/* Большие экраны (от 1025px и выше) */
+@media (min-width: 1025px) {
+footer{
+height:200px;
+}
+}

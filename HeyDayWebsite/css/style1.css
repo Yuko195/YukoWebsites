@@ -1,0 +1,93 @@
+a{
+text-decoration:none;
+color:#000;
+}
+html, body{
+height:100%;
+font-family:Andale Mono,AndaleMono,monospace; 
+user-select:none;
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+body {
+display:flex;
+flex-direction:column;
+min-height:150vh;
+background-color:#CC8645;
+}
+#preloader{
+width:105%;
+height:100vh;
+background:#000;
+opacity:1;
+pointer-events:none;
+transition:opacity 1s ease;
+position:fixed;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+display:grid;
+place-items:center;
+}
+#preloader span{
+color:#fff;
+font-size:3rem;
+}
+header{
+height:100px;
+background-color:#441603;
+}
+#line{
+height:30px;
+background-color:#F7C99E;
+}
+header, #line {
+flex-shrink: 0;
+}
+main{
+padding-top:10px;
+background-color:#CC8645;
+display:grid;
+grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+flex:1;
+gap:1rem;
+padding:5px 10px;
+}
+.drinksCard{
+border:2px solid #612801;
+padding:1rem;
+display:flex;
+flex-direction:column;
+justify-content:flex-start;
+height:auto;
+}
+.Name-Size{
+display:flex;
+justify-content:space-between;
+flex-direction:row;
+align-items:center;
+font-size:13px;
+}
+.itemName{
+display:flex;
+align-items:center;
+padding:5px 0;
+}
+.dots{
+height:1em;
+width:90%;
+border-bottom:2px dotted #000;
+}
+.prices{
+display:flex;
+}
+footer{
+height:200px;
+background-color:#d0f0c0;
+margin-top:auto;
+}
+
+#author{
+font-size:25px;
+}
